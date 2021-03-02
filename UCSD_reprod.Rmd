@@ -68,9 +68,10 @@ xaringanExtra::use_extra_styles(
 }
 ```
 
-.center[
-<img src="./_figs/ReadableCode.jpg" alt="drawing" width="600"/>
-]
+
+```{r echo = FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("./_figs/ReadableCode.jpg")
+```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
 
@@ -105,9 +106,9 @@ class: inverse
 
 # The Research Cycle
 
-.center[
-<img src="./_figs/ResearchCycle.jpg" alt="drawing" width="600"/>
-]
+```{r echo = FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("./_figs/ResearchCycle.jpg")
+```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
 
@@ -145,15 +146,21 @@ efforts are in the interest of enhancing transparency and collaboration, and fos
 
 .pull-right[
 <br><br><br>
-<img src="./_figs/FAIRPrinciples.jpg" width="500"/>
+
+```{r echo = FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("./_figs/FAIRPrinciples.jpg")
+```
+
 ]
 
 ---
 
 # Reproducible Journey
-.center[
-<img src="./_figs/ReproducibleJourney.jpg" alt="drawing" width="600"/>
-]
+
+<br>
+```{r echo = FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("./_figs/ReproducibleJourney.jpg")
+```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
 
@@ -187,9 +194,11 @@ efforts are in the interest of enhancing transparency and collaboration, and fos
 ---
 
 # Open Research
-.center[
-<img src="./_figs/openresearch.jpg" alt="drawing" width="600"/>
-]
+
+<br>
+```{r echo = FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("./_figs/openresearch.jpg")
+```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
 
@@ -227,7 +236,11 @@ It’s possible you’ve encountered Markdown without realizing it. Facebook cha
 
 .pull-right[
 <br>
-<img src="./_figs/md_flavs.png" width="500"/>
+
+```{r echo = FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("./_figs/md_flavs.png")
+```
+
 ]
 
 ---
@@ -235,9 +248,9 @@ It’s possible you’ve encountered Markdown without realizing it. Facebook cha
 # Markdown: How to use?
 
 <br>
-.center[
-<img src="./_figs/rmd.png" alt="drawing" width="700"/>
-]
+```{r echo = FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("./_figs/rmd.png")
+```
 
 [R Markdown: The Definitive Guide - Yihui Xie](https://bookdown.org/yihui/rmarkdown/)
 
@@ -246,9 +259,10 @@ It’s possible you’ve encountered Markdown without realizing it. Facebook cha
 # Markdown: How to use?
 
 <br>
-.center[
-<img src="./_figs/markstat.png" alt="drawing" width="500"/>
-]
+
+```{r echo = FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("./_figs/markstat.png")
+```
 
 [Stata Markdown - Germán Rodriguez](https://data.princeton.edu/stata/markdown)
 
