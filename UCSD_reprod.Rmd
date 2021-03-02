@@ -70,7 +70,7 @@ xaringanExtra::use_extra_styles(
 
 
 ```{r echo = FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("./_figs/ReadableCode.jpg")
+knitr::include_graphics("_figs/ReadableCode.jpg")
 ```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
@@ -107,7 +107,7 @@ class: inverse
 # The Research Cycle
 
 ```{r echo = FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("./_figs/ResearchCycle.jpg")
+knitr::include_graphics("_figs/ResearchCycle.jpg")
 ```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
@@ -148,7 +148,7 @@ efforts are in the interest of enhancing transparency and collaboration, and fos
 <br><br><br>
 
 ```{r echo = FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("./_figs/FAIRPrinciples.jpg")
+knitr::include_graphics("_figs/FAIRPrinciples.jpg")
 ```
 
 ]
@@ -159,7 +159,7 @@ knitr::include_graphics("./_figs/FAIRPrinciples.jpg")
 
 <br>
 ```{r echo = FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("./_figs/ReproducibleJourney.jpg")
+knitr::include_graphics("_figs/ReproducibleJourney.jpg")
 ```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
@@ -197,7 +197,7 @@ knitr::include_graphics("./_figs/ReproducibleJourney.jpg")
 
 <br>
 ```{r echo = FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("./_figs/openresearch.jpg")
+knitr::include_graphics("_figs/openresearch.jpg")
 ```
 
 [The Turing Way Community, & Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
@@ -238,7 +238,7 @@ It’s possible you’ve encountered Markdown without realizing it. Facebook cha
 <br>
 
 ```{r echo = FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("./_figs/md_flavs.png")
+knitr::include_graphics("_figs/md_flavs.png")
 ```
 
 ]
@@ -249,7 +249,7 @@ knitr::include_graphics("./_figs/md_flavs.png")
 
 <br>
 ```{r echo = FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("./_figs/rmd.png")
+knitr::include_graphics("_figs/rmd.png")
 ```
 
 [R Markdown: The Definitive Guide - Yihui Xie](https://bookdown.org/yihui/rmarkdown/)
@@ -261,7 +261,7 @@ knitr::include_graphics("./_figs/rmd.png")
 <br>
 
 ```{r echo = FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("./_figs/markstat.png")
+knitr::include_graphics("_figs/markstat.png")
 ```
 
 [Stata Markdown - Germán Rodriguez](https://data.princeton.edu/stata/markdown)
