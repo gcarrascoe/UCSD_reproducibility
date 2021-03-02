@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Reproducibility tools</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Gabriel Carrasco-Escobar" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/tile-view-0.2.4/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.2.4/tile-view.js"></script>
+    <link href="libs/xaringanExtra-extra-styles-0.2.4/xaringanExtra-extra-styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Reproducibility tools
+## Markdown and Github
+### Gabriel Carrasco-Escobar
+### UCSD 2021
+### 2021/02/28 (updated: 2021-03-02)
+
+---
+
+
+
+
+&lt;style type="text/css"&gt;
+# .remark-slide-content {
+#   font-size: 28px;
+#   padding: 20px 80px 20px 80px;
+# }
+# .remark-code, .remark-inline-code {
+#   background: #f0f0f0;
+# }
+# .remark-code {
+#   font-size: 24px;
+# }
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.small1 .remark-code { /*Change made here*/
+  font-size: 80% !important;
+}
+.small2 .remark-code { /*Change made here*/
+  font-size: 65% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 50% !important;
+}
+.tinyq .remark-code { /*Change made here*/
+  font-size: 5% !important;
+}
+.big1_t { font-size: 120% }
+.big2_t { font-size: 150% }
+.big3_t { font-size: 200% }
+.small0_t { font-size: 90% }
+.small1_t { font-size: 80% }
+.small2_t { font-size: 60% }
+.tiny1_t { font-size: 40% }
+.tiny2_t { font-size: 20% }
+
+.text_right {
+  vertical-align: bottom !important; 
+  text-align: right !important;
+}
+
+.text_left {
+  vertical-align: bottom !important; 
+  text-align: left !important;
+}
+&lt;/style&gt;
+
+
+&lt;img src="./_figs/ReadableCode.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+[The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
+
+---
+
+class: inverse
+
+# [Overview]()
+
+## 1. **Open Science 🧠**
+&lt;br&gt;
+.big2_t[
+.pull-left[
+
+###2.  **Markdown 📝**
+- What is?
+- How to use?
+
+### 3. **Github 😸**
+- What is?
+- How to use?
+]
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
+
+]
+
+---
+
+# The Research Cycle
+
+&lt;img src="./_figs/ResearchCycle.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+[The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
+
+---
+
+# Open Science
+
+&lt;br&gt;&lt;br&gt;
+- There is no formal definition of open science. 
+
+&lt;br&gt;
+
+&gt; Efforts by researchers, governments, research funding agencies or the scientific community itself to make the
+primary outputs of publicly funded research results – publications and the research data – publicly
+accessible in digital format with no or minimal restriction as a means for accelerating research; these
+efforts are in the interest of enhancing transparency and collaboration, and fostering innovation.
+
+&lt;br&gt;
+
+[OECD (2015)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf)
+
+---
+
+# FAIR principles
+
+.pull-left[
+&lt;br&gt;&lt;br&gt;
+
+- In 2016, the [FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618) were published in Scientific Data. 
+
+- The authors intended to provide guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability, and **R**euse of digital assets. 
+
+[GO FAIR](https://www.go-fair.org/fair-principles/)
+]
+
+.pull-right[
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;img src="./_figs/FAIRPrinciples.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Reproducible Journey
+
+&lt;br&gt;
+&lt;img src="./_figs/ReproducibleJourney.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+[The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
+
+---
+
+# Ten arguments against Open Science
+
+&lt;br&gt;
+
+### 1. Open Science is **not always open** 
+### 2. Open Science has **historically lacked diversity** and exhibited a non-inclusive culture 
+### 3. Current open culture is built on the **Western mindset** 
+### 4. **My institute’s policy** would never allow me to share my work openly 
+### 5. My work is **not good enough** to share 
+
+[Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)
+
+---
+
+# Ten arguments against Open Science
+
+&lt;br&gt;
+### 6. I will definitely **get scooped**
+### 7. I wrote this **code for my data set only**
+### 8. **I can’t maintain it**, so why bother sharing 
+### 9. What if people **judge** my code and preprint? 
+### 10. My work **will not be acknowledged** and that’s not going to help my career 
+
+[Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)
+
+---
+
+# Open Research
+
+&lt;br&gt;
+&lt;img src="./_figs/openresearch.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+[The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
+
+---
+
+class: inverse, center
+
+&lt;center&gt;
+&lt;blockquote class="twitter-tweet" data-lang="es" width="400"&gt;&lt;p lang="es" dir="ltr"&gt;"When authors say they will "make data available upon request"
+
+'#OpenScienceGif &lt;/p&gt;&amp;mdash; Heidi Seibold (@HeidiBaya) &lt;a href="https://twitter.com/HeidiBaya/status/1335897311931740163?s=20"&gt;7 December 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/center&gt;
+
+---
+
+class: inverse, center, middle
+
+# Open Research Tools 🧰
+
+.big3_t[
+[Markdown]()
+]
+
+---
+
+# Markdown: What is?
+
+&lt;br&gt;
+.pull-left[
+
+Markdown is a **plain text formatting syntax** aimed at making writing for the internet easier. The philosophy behind Markdown is that plain text documents should be readable without tags mussing everything up, but there should still be ways to add text modifiers like lists, bold, italics, etc.
+
+It’s possible you’ve encountered Markdown without realizing it. Facebook chat, Skype, and Reddit all let you use **different flavors** of Markdown to format your messages.
+]
+
+.pull-right[
+&lt;br&gt;
+
+&lt;img src="./_figs/md_flavs.png" width="600" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Markdown: How to use?
+
+&lt;br&gt;
+&lt;img src="./_figs/rmd.png" width="700" style="display: block; margin: auto;" /&gt;
+
+[R Markdown: The Definitive Guide - Yihui Xie](https://bookdown.org/yihui/rmarkdown/)
+
+---
+
+# Markdown: How to use?
+
+&lt;br&gt;
+
+&lt;img src="./_figs/markstat.png" width="500" style="display: block; margin: auto;" /&gt;
+
+[Stata Markdown - Germán Rodriguez](https://data.princeton.edu/stata/markdown)
+
+---
+
+# Example
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.center[
+.big3_t[
+[Malaria inequality in SSA](https://bookdown.org/gabc91/mal_ineq/)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Open Research Tools 🧰
+
+.big3_t[
+[Github]()
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
