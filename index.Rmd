@@ -178,7 +178,7 @@ knitr::include_graphics("_figs/FAIRPrinciples.jpg")
 
 ---
 
-# Reproducible Journey
+# Reproducibility Journey
 
 <br>
 ```{r echo = FALSE, out.width=600, fig.align='center'}
