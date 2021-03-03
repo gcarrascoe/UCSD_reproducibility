@@ -4,12 +4,13 @@
     <title>Reproducibility tools</title>
     <meta charset="utf-8" />
     <meta name="author" content="Gabriel Carrasco-Escobar" />
+    <script src="libs/header-attrs-2.6/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
-    <link href="libs/tile-view-0.2.4/tile-view.css" rel="stylesheet" />
-    <script src="libs/tile-view-0.2.4/tile-view.js"></script>
-    <link href="libs/xaringanExtra-extra-styles-0.2.4/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <link href="libs/tile-view-0.2.6/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.2.6/tile-view.js"></script>
+    <link href="libs/xaringanExtra-extra-styles-0.2.6/xaringanExtra-extra-styles.css" rel="stylesheet" />
   </head>
   <body>
     <textarea id="source">
@@ -19,7 +20,7 @@ class: center, middle, inverse, title-slide
 ## Markdown and Github
 ### Gabriel Carrasco-Escobar
 ### UCSD 2021
-### 2021/02/28 (updated: 2021-03-02)
+### 2021/02/28 (updated: 2021-03-03)
 
 ---
 
@@ -73,7 +74,7 @@ class: center, middle, inverse, title-slide
 &lt;/style&gt;
 
 
-&lt;img src="_figs/ReadableCode.jpg" width="600" style="display: block; margin: auto;" /&gt;
+&lt;img src="_figs/CultureShift.jpg" width="800" style="display: block; margin: auto;" /&gt;
 
 [The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
 
@@ -83,23 +84,28 @@ class: inverse
 
 # [Overview]()
 
-## 1. **Open Science 🧠**
-&lt;br&gt;
 .big2_t[
 .pull-left[
 
-###2.  **Markdown 📝**
-- What is?
-- How to use?
+### 1. **Open Science 🧠**
 
-### 3. **Github 😸**
-- What is?
-- How to use?
+&lt;br&gt;
+
+###2.  **Markdown 📝**
+
+&lt;br&gt;
+
+### 3. **GitHub 😸**
+
+&lt;br&gt;
+
+### 4. **Data Repositories 🗄️**
+
 ]
 ]
 
 .pull-right[
-
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
 ![](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
 
 ]
@@ -114,6 +120,25 @@ class: inverse
 
 ---
 
+class: inverse, center
+
+&lt;center&gt;
+&lt;blockquote class="twitter-tweet" data-lang="es" width="400"&gt;&lt;p lang="es" dir="ltr"&gt;"When authors say they will "make data available upon request"
+
+'#OpenScienceGif &lt;/p&gt;&amp;mdash; Heidi Seibold (@HeidiBaya) &lt;a href="https://twitter.com/HeidiBaya/status/1335897311931740163?s=20"&gt;7 December 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/center&gt;
+
+---
+
+# Open Research
+
+&lt;br&gt;
+&lt;img src="_figs/openresearch.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+[The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
+
+---
+
 # Open Science
 
 &lt;br&gt;&lt;br&gt;
@@ -121,10 +146,7 @@ class: inverse
 
 &lt;br&gt;
 
-&gt; Efforts by researchers, governments, research funding agencies or the scientific community itself to make the
-primary outputs of publicly funded research results – publications and the research data – publicly
-accessible in digital format with no or minimal restriction as a means for accelerating research; these
-efforts are in the interest of enhancing transparency and collaboration, and fostering innovation.
+&gt; Efforts by researchers, governments, research funding agencies or the **scientific community** itself to make the primary outputs of publicly funded research results – publications and the research data – publicly accessible in digital format with **no or minimal restriction** as a means for **accelerating research**; these efforts are in the interest of enhancing transparency and collaboration, and fostering innovation.
 
 &lt;br&gt;
 
@@ -162,52 +184,6 @@ efforts are in the interest of enhancing transparency and collaboration, and fos
 
 ---
 
-# Ten arguments against Open Science
-
-&lt;br&gt;
-
-### 1. Open Science is **not always open** 
-### 2. Open Science has **historically lacked diversity** and exhibited a non-inclusive culture 
-### 3. Current open culture is built on the **Western mindset** 
-### 4. **My institute’s policy** would never allow me to share my work openly 
-### 5. My work is **not good enough** to share 
-
-[Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)
-
----
-
-# Ten arguments against Open Science
-
-&lt;br&gt;
-### 6. I will definitely **get scooped**
-### 7. I wrote this **code for my data set only**
-### 8. **I can’t maintain it**, so why bother sharing 
-### 9. What if people **judge** my code and preprint? 
-### 10. My work **will not be acknowledged** and that’s not going to help my career 
-
-[Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)
-
----
-
-# Open Research
-
-&lt;br&gt;
-&lt;img src="_figs/openresearch.jpg" width="600" style="display: block; margin: auto;" /&gt;
-
-[The Turing Way Community, &amp; Scriberia (2020)](https://zenodo.org/record/3695300#.YDx7Ml1Kj3Q)
-
----
-
-class: inverse, center
-
-&lt;center&gt;
-&lt;blockquote class="twitter-tweet" data-lang="es" width="400"&gt;&lt;p lang="es" dir="ltr"&gt;"When authors say they will "make data available upon request"
-
-'#OpenScienceGif &lt;/p&gt;&amp;mdash; Heidi Seibold (@HeidiBaya) &lt;a href="https://twitter.com/HeidiBaya/status/1335897311931740163?s=20"&gt;7 December 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/center&gt;
-
----
-
 class: inverse, center, middle
 
 # Open Research Tools 🧰
@@ -229,7 +205,6 @@ It’s possible you’ve encountered Markdown without realizing it. Facebook cha
 ]
 
 .pull-right[
-&lt;br&gt;
 
 &lt;img src="_figs/md_flavs.png" width="600" style="display: block; margin: auto;" /&gt;
 
@@ -256,7 +231,29 @@ It’s possible you’ve encountered Markdown without realizing it. Facebook cha
 
 ---
 
-# Example
+# Markdown: Where to start?
+
+.pull-left[
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.big3_t[
+**R Markdown: The Definitive Guide - Yihui Xie**
+]
+
+[book link](https://data.princeton.edu/stata/markdown)
+]
+
+.pull-right[
+&lt;br&gt;
+
+&lt;img src="_figs/cover_rmd.png" width="300" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+
+# Markdown: Example
 
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 .center[
@@ -272,8 +269,195 @@ class: inverse, center, middle
 # Open Research Tools 🧰
 
 .big3_t[
-[Github]()
+[GitHub]()
 ]
+
+---
+
+# Git: What is?
+
+&lt;br&gt;
+.pull-left[
+
+&lt;img src="_figs/Git-Icon.png" width="300" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+A **version control system (VCS)** tracks the history of changes as people and teams collaborate on projects together.
+
+- Which changes were made?
+- Who made the changes?
+- When were the changes made?
+- Why were changes needed?
+
+According to the latest [Stack Overflow developer survey](https://insights.stackoverflow.com/survey/2017#technology), more than **70 %** of developers use Git, making it the most-used VCS in the world.
+]
+
+---
+
+# GitHub: What is?
+
+.pull-left[
+- _**GitHub**_ is a _Git hosting repository_ that provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. 
+
+- GitHub builds collaboration directly into the development process. Work is organized into repositories, where developers can outline requirements or direction and set expectations for team members.
+]
+
+.pull-right[
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="_figs/GitHub-cat-logo.jpg" width="600" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# GitHub: How to use?
+
+.pull-left[
+- A _**repository**_, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file’s revision history.
+]
+
+.pull-right[
+- The file history appears as snapshots in time called _**commits**_, and the commits exist as a linked-list relationship, and can be organized into multiple lines of development called _**branches**_.
+]
+
+&lt;br&gt;
+
+&lt;img src="_figs/git_rebase.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+# GitHub: Where to start?
+
+.pull-left[
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.big3_t[
+**Github Desktop**
+]
+
+[download link](https://desktop.github.com/)
+]
+
+.pull-right[
+
+&lt;img src="_figs/ghd_landing.png" width="400" style="display: block; margin: auto;" /&gt;
+&lt;br&gt;
+&lt;img src="_figs/ghd_screenshot-mac.png" width="400" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+
+---
+
+# GitHub: Example
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.center[
+.big3_t[
+[Health Innovation Lab Repository](https://github.com/healthinnovation)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Open Research Tools 🧰
+
+.big3_t[
+[Data Repositories]()
+]
+
+---
+
+# Data Repositories: What is?
+
+.pull-left[
+
+- A data repository can be defined as a place that holds data, makes data available to use, and organizes data in a logical manner. 
+
+- Data repositories may have specific requirements concerning subject or research domain; data re-use and access; file format and data structure; and the types of metadata that can be used. 
+
+- Get a permanent URLs to the repository as a **Digital Object Identifier (DOI)**
+
+[NIH](https://nnlm.gov/data/thesaurus/data-repository)
+
+]
+
+.pull-right[
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="_figs/DOI.jpg" width="400" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Data Repositories: Examples
+
+&lt;img src="_figs/data_repo.png" width="450" style="display: block; margin: auto;" /&gt;
+
+
+.center[
+Table: [Scientific Data](https://www.nature.com/sdata/policies/repositories#general)
+
+[DRYAD](https://datadryad.org/stash) | [figshare](https://figshare.com/) | [Harvard Dataverse](https://dataverse.harvard.edu/) | [Zenodo](https://zenodo.org/)
+]
+
+---
+
+# This presentation
+
+.big2_t[
+.center[
+[🖥️ Slides](https://ucsd-reprod.netlify.app)
+]
+
+.pull-left[
+.center[
+[📝 RMarkdown]()
+
+&lt;img src="_figs/rmd_slides.png" width="600" style="display: block; margin: auto;" /&gt;
+
+]
+
+]
+
+.pull-right[
+
+.center[
+[😸 GitHub](https://github.com/gcarrascoe/UCSD_reproducibility)
+
+&lt;img src="_figs/github_slides.png" width="600" style="display: block; margin: auto;" /&gt;
+
+]
+]
+]
+
+---
+
+# Resources
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+- [Mi próximo artículo científico en R - Florencia D'Andrea](https://flor14.github.io/rladies-jujuy/presentacion.html?panelset=compendio&amp;panelset1=bibliograf%25C3%25ADa#1)
+- [Git project](https://git-scm.com/)
+- [GitHub Guides](https://guides.github.com/introduction/git-handbook/)
+- [Sharing on Short Notice](https://rstudio-education.github.io/sharing-short-notice/#1)
+- [R, Open Research, and Reproducibility](https://r-openresearch-reproducibility.netlify.app/)
+- [The Turing Way](https://the-turing-way.netlify.app/welcome)
+- [Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)
+
+---
+
+class: inverse, center, middle
+
+### Gabriel Carrasco Escobar, MS, PhD(c)
+#### ✉️ [gabriel.carrasco@upch.pe]()
+#### 🐦 [@Gabc91]()
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
