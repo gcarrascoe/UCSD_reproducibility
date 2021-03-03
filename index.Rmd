@@ -251,7 +251,7 @@ knitr::include_graphics("_figs/markstat.png")
 **R Markdown: The Definitive Guide - Yihui Xie**
 ]
 
-[book link](https://data.princeton.edu/stata/markdown)
+[book link](https://bookdown.org/yihui/rmarkdown/)
 ]
 
 .pull-right[
@@ -432,7 +432,7 @@ knitr::include_graphics("_figs/data_repo.png")
 .center[
 Table: [Scientific Data](https://www.nature.com/sdata/policies/repositories#general)
 
-[DRYAD](https://datadryad.org/stash) | [figshare](https://figshare.com/) | [Harvard Dataverse](https://dataverse.harvard.edu/) | [Zenodo](https://zenodo.org/)
+[DRYAD](https://datadryad.org/stash) | [figshare](https://figshare.com/) | [Harvard Dataverse](https://library.harvard.edu/services-tools/harvard-dataverse) | [Zenodo](https://zenodo.org/)
 ]
 
 ---
@@ -488,4 +488,4 @@ class: inverse, center, middle
 
 ### Gabriel Carrasco Escobar, MS, PhD(c)
 #### ✉️ [gabriel.carrasco@upch.pe]()
-#### 🐦 [@Gabc91]()
+#### 🐦 [@Gabc91](https://twitter.com/Gabc91)
